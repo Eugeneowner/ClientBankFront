@@ -1,0 +1,10 @@
+.logo { 
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  &_text{ 
+    font-weight: 700;
+    font-size: 18px;
+    color: #db0011;
+  }
+}

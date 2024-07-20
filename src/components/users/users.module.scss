@@ -1,0 +1,40 @@
+.container{ 
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table {
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap; /* Prevent columns from taking up too much space */
+  }
+  thead{ 
+    background: #db0011;
+  }
+  
+  th {
+    color: #f4f4f9;
+    font-weight: bold;
+  }
+  
+  .table_row {
+    &:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  }
+  
+  .table_row_el {
+    padding: 10px;
+  }
+}

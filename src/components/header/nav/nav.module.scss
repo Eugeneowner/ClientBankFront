@@ -1,0 +1,16 @@
+.nav{ 
+  &_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+}
+
+.link{ 
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 16px;
+  color: #d18087;
+
+}

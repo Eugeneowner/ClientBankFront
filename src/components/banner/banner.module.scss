@@ -1,0 +1,31 @@
+.banner {
+  margin: 50px auto 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  &_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 1200px;
+    height: 550px;
+  }
+  &_content {
+    padding: 20px 25px;
+    margin: 50px 0 0 100px;
+    width: 500px;
+    background: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:  15px;
+    &_btn{ 
+      margin-top: 15px;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      background: #db0011;
+      color: #fff
+    }
+  }
+}
