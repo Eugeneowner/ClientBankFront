@@ -3,22 +3,7 @@ import { addFunds, createAccountByCustomerId, createCustomer, deleteCustomer, de
 import { Notify } from "notiflix"
 
 const initialState = {
-  list: [
-    {
-      id: 1,
-      name: "Alex",
-      email: "ex@gmail.com",
-      age: 25,
-      accounts: "12wqr"
-    },
-    {
-      id: 2,
-      name: "Mark",
-      email: "exMark@gmail.com",
-      age: 35,
-      accounts: "15wqr"
-    },
-  ]
+  list: []
 }
 
 export const getUsers = createAsyncThunk("users/get-list", async () => {
